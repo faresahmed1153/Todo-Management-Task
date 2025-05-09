@@ -1,0 +1,76 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "4.1.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.1.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.1.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.1.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.1.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.1.1",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.1.1",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {}
+    }
+  },
+  "packages": {
+    "TodoManagement.Solution.Application": {
+      "path": "src/TodoManagement.Solution.Application/TodoManagement.Solution.Application.abppkg",
+      "folder": "src"
+    },
+    "TodoManagement.Solution.Domain.Shared": {
+      "path": "src/TodoManagement.Solution.Domain.Shared/TodoManagement.Solution.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "TodoManagement.Solution.Application.Contracts": {
+      "path": "src/TodoManagement.Solution.Application.Contracts/TodoManagement.Solution.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "TodoManagement.Solution.HttpApi": {
+      "path": "src/TodoManagement.Solution.HttpApi/TodoManagement.Solution.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "TodoManagement.Solution.HttpApi.Client": {
+      "path": "src/TodoManagement.Solution.HttpApi.Client/TodoManagement.Solution.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "TodoManagement.Solution.EntityFrameworkCore": {
+      "path": "src/TodoManagement.Solution.EntityFrameworkCore/TodoManagement.Solution.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "TodoManagement.Solution.DbMigrator": {
+      "path": "src/TodoManagement.Solution.DbMigrator/TodoManagement.Solution.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "TodoManagement.Solution.HttpApi.Host": {
+      "path": "src/TodoManagement.Solution.HttpApi.Host/TodoManagement.Solution.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "TodoManagement.Solution.Domain": {
+      "path": "src/TodoManagement.Solution.Domain/TodoManagement.Solution.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

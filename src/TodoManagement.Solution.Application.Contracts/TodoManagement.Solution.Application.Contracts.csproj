@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>TodoManagement.Solution</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TodoManagement.Solution.Domain.Shared\TodoManagement.Solution.Domain.Shared.csproj" />
+    <ProjectReference Include="..\TodoManagement.Solution.Domain\TodoManagement.Solution.Domain.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.3.0" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.Application.Contracts" Version="9.1.1" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.Application.Contracts" Version="9.1.1" />
+    <PackageReference Include="Volo.Abp.SettingManagement.Application.Contracts" Version="9.1.1" />
+    <PackageReference Include="Volo.Abp.Identity.Application.Contracts" Version="9.1.1" />
+    <PackageReference Include="Volo.Abp.Account.Application.Contracts" Version="9.1.1" />
+  </ItemGroup>
+
+</Project>
